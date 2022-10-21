@@ -33,8 +33,14 @@ module.exports = {
     },
     compilers: {
       solc: {
-        version: '0.5.4'
+        version: '0.8.6'
       }
+    }
+  },
+  solc: {
+    optimizer: {
+      enabled: true,
+      runs: 200
     }
   }
 }
